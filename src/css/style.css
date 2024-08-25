@@ -1,0 +1,36 @@
+#container {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.show {
+    display: block;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+
+.content {
+    border: 2px solid #d2d2e1;
+    border-radius: 7px;
+}
+
+p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.button {
+    margin-bottom: 5px;
+}
